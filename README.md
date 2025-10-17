@@ -2,12 +2,13 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Kaustubh Khilari`
+- **CCID:** `1764444`
 
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+https://www.infoworld.com/article/2256967/comparing-java-objects-with-equals-and-hashcode.html
 
 ## Verbal Collaboration
 
