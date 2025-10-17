@@ -1,9 +1,11 @@
+import org.gradle.platform.base.Library
+
 plugins {
     alias(libs.plugins.android.application)
 }
 
 android {
-    namespace = "com.example.code"
+    namespace = "com.example.listycity"
     compileSdk = 35
 
     defaultConfig {
@@ -40,4 +42,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.0.1")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.0.1")
+
+}
+
+tasks.withType<Test> {
+    useJUnitPlatform()
 }
